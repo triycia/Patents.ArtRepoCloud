@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "Patents.ArtRepoCloud.GraphService": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "https://localhost:7059;http://localhost:5178"
+    }
+  }
+}

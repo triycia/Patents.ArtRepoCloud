@@ -1,0 +1,492 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Patents.ArtRepoCloud\\Src\\Patents.ArtRepoCloud.GraphService\\Patents.ArtRepoCloud.GraphService.csproj": {}
+  },
+  "projects": {
+    "D:\\Patents.ArtRepoCloud\\Src\\Patents.ArtRepoCloud.Domain\\Patents.ArtRepoCloud.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Patents.ArtRepoCloud\\Src\\Patents.ArtRepoCloud.Domain\\Patents.ArtRepoCloud.Domain.csproj",
+        "projectName": "Patents.ArtRepoCloud.Domain",
+        "projectPath": "D:\\Patents.ArtRepoCloud\\Src\\Patents.ArtRepoCloud.Domain\\Patents.ArtRepoCloud.Domain.csproj",
+        "packagesPath": "C:\\Users\\itvik\\.nuget\\packages\\",
+        "outputPath": "D:\\Patents.ArtRepoCloud\\Src\\Patents.ArtRepoCloud.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "D:\\Patents.ArtRepoCloud\\Src\\NuGet.Config",
+          "C:\\Users\\itvik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "HotChocolate.Abstractions": {
+              "target": "Package",
+              "version": "[13.8.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.Azure.Cosmos": {
+              "target": "Package",
+              "version": "[3.37.1, )"
+            },
+            "Vikcher.Framework.Data.Cosmos": {
+              "target": "Package",
+              "version": "[24.10.0.109, )"
+            },
+            "Vikcher.Framework.Data.EntityFramework": {
+              "target": "Package",
+              "version": "[24.10.0.109, )"
+            },
+            "Vikcher.Framework.EventBus": {
+              "target": "Package",
+              "version": "[24.10.0.109, )"
+            },
+            "iTextSharp": {
+              "target": "Package",
+              "version": "[5.5.13.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Patents.ArtRepoCloud\\Src\\Patents.ArtRepoCloud.GraphService\\Patents.ArtRepoCloud.GraphService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Patents.ArtRepoCloud\\Src\\Patents.ArtRepoCloud.GraphService\\Patents.ArtRepoCloud.GraphService.csproj",
+        "projectName": "Patents.ArtRepoCloud.GraphService",
+        "projectPath": "D:\\Patents.ArtRepoCloud\\Src\\Patents.ArtRepoCloud.GraphService\\Patents.ArtRepoCloud.GraphService.csproj",
+        "packagesPath": "C:\\Users\\itvik\\.nuget\\packages\\",
+        "outputPath": "D:\\Patents.ArtRepoCloud\\Src\\Patents.ArtRepoCloud.GraphService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "D:\\Patents.ArtRepoCloud\\Src\\NuGet.Config",
+          "C:\\Users\\itvik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Patents.ArtRepoCloud\\Src\\Patents.ArtRepoCloud.Domain\\Patents.ArtRepoCloud.Domain.csproj": {
+                "projectPath": "D:\\Patents.ArtRepoCloud\\Src\\Patents.ArtRepoCloud.Domain\\Patents.ArtRepoCloud.Domain.csproj"
+              },
+              "D:\\Patents.ArtRepoCloud\\Src\\Patents.ArtRepoCloud.Infrastructure\\Patents.ArtRepoCloud.Infrastructure.csproj": {
+                "projectPath": "D:\\Patents.ArtRepoCloud\\Src\\Patents.ArtRepoCloud.Infrastructure\\Patents.ArtRepoCloud.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AspNetCore.HealthChecks.AzureServiceBus": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "AspNetCore.HealthChecks.UI.Client": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "Autofac": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Azure.Identity": {
+              "target": "Package",
+              "version": "[1.8.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.6.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.6.0, )"
+            },
+            "HotChocolate": {
+              "target": "Package",
+              "version": "[13.7.0, )"
+            },
+            "HotChocolate.Abstractions": {
+              "target": "Package",
+              "version": "[13.8.1, )"
+            },
+            "HotChocolate.AspNetCore": {
+              "target": "Package",
+              "version": "[13.7.0, )"
+            },
+            "HotChocolate.Data.EntityFramework": {
+              "target": "Package",
+              "version": "[13.7.0, )"
+            },
+            "HotChocolate.Data.Filters.Extensions": {
+              "target": "Package",
+              "version": "[0.8.0, )"
+            },
+            "HotChocolate.Types.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[13.7.0, )"
+            },
+            "HotChocolate.Types.Mutations": {
+              "target": "Package",
+              "version": "[13.7.0, )"
+            },
+            "IdentityModel.AspNetCore.AccessTokenValidation": {
+              "target": "Package",
+              "version": "[1.0.0-preview.3, )"
+            },
+            "IdentityModel.AspNetCore.OAuth2Introspection": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.12, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.HealthChecks": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.12, )"
+            },
+            "Microsoft.Azure.AppConfiguration.AspNetCore": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
+            "Microsoft.Azure.ServiceBus": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
+            "Microsoft.Azure.Services.AppAuthentication": {
+              "target": "Package",
+              "version": "[1.6.2, )"
+            },
+            "Microsoft.Bcl.AsyncInterfaces": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[7.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.16, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.AzureAppConfiguration": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.15, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Hosting.WindowsServices": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.ApplicationInsights": {
+              "target": "Package",
+              "version": "[2.21.0, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.18.1, )"
+            },
+            "Microsoft.VisualStudio.Azure.Kubernetes.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
+            "NLog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            },
+            "PDFtoImage": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "Vikcher.Framework.ApiCore": {
+              "target": "Package",
+              "version": "[24.10.0.109, )"
+            },
+            "Vikcher.Framework.Azure": {
+              "target": "Package",
+              "version": "[24.10.0.109, )"
+            },
+            "Vikcher.Framework.Common": {
+              "target": "Package",
+              "version": "[24.10.0.109, )"
+            },
+            "Vikcher.Framework.Data": {
+              "target": "Package",
+              "version": "[24.10.0.109, )"
+            },
+            "Vikcher.Framework.Data.Cosmos": {
+              "target": "Package",
+              "version": "[24.10.0.109, )"
+            },
+            "Vikcher.Framework.EventBus": {
+              "target": "Package",
+              "version": "[24.10.0.109, )"
+            },
+            "Vikcher.Framework.EventBus.AzureServiceBus": {
+              "target": "Package",
+              "version": "[24.10.0.109, )"
+            },
+            "Vikcher.Framework.Logging": {
+              "target": "Package",
+              "version": "[24.10.0.109, )"
+            },
+            "Vikcher.Framework.Reflection": {
+              "target": "Package",
+              "version": "[24.10.0.109, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Patents.ArtRepoCloud\\Src\\Patents.ArtRepoCloud.Infrastructure\\Patents.ArtRepoCloud.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Patents.ArtRepoCloud\\Src\\Patents.ArtRepoCloud.Infrastructure\\Patents.ArtRepoCloud.Infrastructure.csproj",
+        "projectName": "Patents.ArtRepoCloud.Infrastructure",
+        "projectPath": "D:\\Patents.ArtRepoCloud\\Src\\Patents.ArtRepoCloud.Infrastructure\\Patents.ArtRepoCloud.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\itvik\\.nuget\\packages\\",
+        "outputPath": "D:\\Patents.ArtRepoCloud\\Src\\Patents.ArtRepoCloud.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "D:\\Patents.ArtRepoCloud\\Src\\NuGet.Config",
+          "C:\\Users\\itvik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Patents.ArtRepoCloud\\Src\\Patents.ArtRepoCloud.Domain\\Patents.ArtRepoCloud.Domain.csproj": {
+                "projectPath": "D:\\Patents.ArtRepoCloud\\Src\\Patents.ArtRepoCloud.Domain\\Patents.ArtRepoCloud.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Vikcher.Framework.Data": {
+              "target": "Package",
+              "version": "[24.10.0.109, )"
+            },
+            "Vikcher.Framework.Data.Cosmos": {
+              "target": "Package",
+              "version": "[24.10.0.109, )"
+            },
+            "Vikcher.Framework.Data.EntityFramework": {
+              "target": "Package",
+              "version": "[24.10.0.109, )"
+            },
+            "Vikcher.Framework.IO": {
+              "target": "Package",
+              "version": "[24.10.0.109, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

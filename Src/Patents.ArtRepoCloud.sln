@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patents.ArtRepoCloud.Domain", "Patents.ArtRepoCloud.Domain\Patents.ArtRepoCloud.Domain.csproj", "{069A0928-B944-469F-936E-AF6F45FDB466}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patents.ArtRepoCloud.Infrastructure", "Patents.ArtRepoCloud.Infrastructure\Patents.ArtRepoCloud.Infrastructure.csproj", "{28F7EC3D-04FA-4644-8786-D00155DFB96B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patents.ArtRepoCloud.Service", "Patents.ArtRepoCloud.Service\Patents.ArtRepoCloud.Service.csproj", "{A901A673-BBB1-482D-982F-C247D5827EBA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patents.ArtRepoCloud.GraphService", "Patents.ArtRepoCloud.GraphService\Patents.ArtRepoCloud.GraphService.csproj", "{45957596-AD9B-40B1-8CA8-0241B2AED0D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{069A0928-B944-469F-936E-AF6F45FDB466}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{069A0928-B944-469F-936E-AF6F45FDB466}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{069A0928-B944-469F-936E-AF6F45FDB466}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{069A0928-B944-469F-936E-AF6F45FDB466}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28F7EC3D-04FA-4644-8786-D00155DFB96B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28F7EC3D-04FA-4644-8786-D00155DFB96B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28F7EC3D-04FA-4644-8786-D00155DFB96B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28F7EC3D-04FA-4644-8786-D00155DFB96B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A901A673-BBB1-482D-982F-C247D5827EBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A901A673-BBB1-482D-982F-C247D5827EBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A901A673-BBB1-482D-982F-C247D5827EBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A901A673-BBB1-482D-982F-C247D5827EBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45957596-AD9B-40B1-8CA8-0241B2AED0D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45957596-AD9B-40B1-8CA8-0241B2AED0D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45957596-AD9B-40B1-8CA8-0241B2AED0D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45957596-AD9B-40B1-8CA8-0241B2AED0D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC8A959E-AB19-4826-AE5C-3A051E0BC8B7}
+	EndGlobalSection
+EndGlobal

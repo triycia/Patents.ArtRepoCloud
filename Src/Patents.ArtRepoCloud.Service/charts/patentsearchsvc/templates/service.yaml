@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "patentsearchsvc.fullname" . }}
+  labels:
+    {{- include "patentsearchsvc.labels" . | nindent 4 }}
+spec:
+  type: {{ .Values.service.type }}
+  ports:
+    - port: {{ .Values.service.port }}
+      targetPort: http
+      protocol: TCP
+      name: http
+  selector:
+    {{- include "patentsearchsvc.selectorLabels" . | nindent 4 }}

@@ -1,0 +1,196 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Patents.ArtRepoCloud\\Src\\Patents.ArtRepoCloud.Infrastructure\\Patents.ArtRepoCloud.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "D:\\Patents.ArtRepoCloud\\Src\\Patents.ArtRepoCloud.Domain\\Patents.ArtRepoCloud.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Patents.ArtRepoCloud\\Src\\Patents.ArtRepoCloud.Domain\\Patents.ArtRepoCloud.Domain.csproj",
+        "projectName": "Patents.ArtRepoCloud.Domain",
+        "projectPath": "D:\\Patents.ArtRepoCloud\\Src\\Patents.ArtRepoCloud.Domain\\Patents.ArtRepoCloud.Domain.csproj",
+        "packagesPath": "C:\\Users\\itvik\\.nuget\\packages\\",
+        "outputPath": "D:\\Patents.ArtRepoCloud\\Src\\Patents.ArtRepoCloud.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "D:\\Patents.ArtRepoCloud\\Src\\NuGet.Config",
+          "C:\\Users\\itvik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "HotChocolate.Abstractions": {
+              "target": "Package",
+              "version": "[13.8.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.Azure.Cosmos": {
+              "target": "Package",
+              "version": "[3.37.1, )"
+            },
+            "Vikcher.Framework.Data.Cosmos": {
+              "target": "Package",
+              "version": "[24.10.0.109, )"
+            },
+            "Vikcher.Framework.Data.EntityFramework": {
+              "target": "Package",
+              "version": "[24.10.0.109, )"
+            },
+            "Vikcher.Framework.EventBus": {
+              "target": "Package",
+              "version": "[24.10.0.109, )"
+            },
+            "iTextSharp": {
+              "target": "Package",
+              "version": "[5.5.13.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Patents.ArtRepoCloud\\Src\\Patents.ArtRepoCloud.Infrastructure\\Patents.ArtRepoCloud.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Patents.ArtRepoCloud\\Src\\Patents.ArtRepoCloud.Infrastructure\\Patents.ArtRepoCloud.Infrastructure.csproj",
+        "projectName": "Patents.ArtRepoCloud.Infrastructure",
+        "projectPath": "D:\\Patents.ArtRepoCloud\\Src\\Patents.ArtRepoCloud.Infrastructure\\Patents.ArtRepoCloud.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\itvik\\.nuget\\packages\\",
+        "outputPath": "D:\\Patents.ArtRepoCloud\\Src\\Patents.ArtRepoCloud.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "D:\\Patents.ArtRepoCloud\\Src\\NuGet.Config",
+          "C:\\Users\\itvik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Patents.ArtRepoCloud\\Src\\Patents.ArtRepoCloud.Domain\\Patents.ArtRepoCloud.Domain.csproj": {
+                "projectPath": "D:\\Patents.ArtRepoCloud\\Src\\Patents.ArtRepoCloud.Domain\\Patents.ArtRepoCloud.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Vikcher.Framework.Data": {
+              "target": "Package",
+              "version": "[24.10.0.109, )"
+            },
+            "Vikcher.Framework.Data.Cosmos": {
+              "target": "Package",
+              "version": "[24.10.0.109, )"
+            },
+            "Vikcher.Framework.Data.EntityFramework": {
+              "target": "Package",
+              "version": "[24.10.0.109, )"
+            },
+            "Vikcher.Framework.IO": {
+              "target": "Package",
+              "version": "[24.10.0.109, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

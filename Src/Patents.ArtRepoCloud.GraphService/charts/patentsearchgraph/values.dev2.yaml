@@ -1,0 +1,94 @@
+# Default values for patentsearchgraph.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+replicaCount: 2
+
+# We overwrite the image repository and tag in the pipeline.
+image:
+  repository: patentsearchgraph
+  pullPolicy: IfNotPresent
+  # Default is the chart appVersion.
+  tag: ""
+
+imagePullSecrets: []
+nameOverride: "patentsearchgraph"
+fullnameOverride: "patentsearchgraph"
+
+serviceAccount:
+  # Specifies whether a service account should be created
+  create: false
+  # Annotations to add to the service account
+  annotations: {}
+  # The name of the service account to use.
+  # If not set and create is true, a name is generated using the fullname template
+  #name: "sa-workload-identity"
+
+podAnnotations: {}
+
+podSecurityContext: {}
+  # fsGroup: 2000
+
+securityContext: {}
+  # capabilities:
+  #   drop:
+  #   - ALL
+  # readOnlyRootFilesystem: true
+  # runAsNonRoot: true
+  # runAsUser: 1000
+
+service:
+  type: ClusterIP
+  port: 80
+
+ingress:
+  enabled: true
+  className: ""
+  annotations:
+    kubernetes.io/ingress.class: azure/application-gateway
+    appgw.ingress.kubernetes.io/ssl-redirect: "true"
+  hosts:
+    - host: patentsearchgraph.dev.vikcher.com
+      paths:
+        - path: /
+          pathType: ImplementationSpecific
+  tls:
+    - secretName: tls-secret-dev2
+      hosts:
+        - 'patentsearchgraph.dev.vikcher.com'
+environments:
+  - name: 'ASPNETCORE_ENVIRONMENT'
+    value: 'Development2'
+resources:
+  limits:
+    cpu: 400m
+    memory: 1024Mi
+  requests:
+    cpu: 50m
+    memory: 256Mi
+
+autoscaling:
+  enabled: true
+  minReplicas: 2
+  maxReplicas: 4
+  targetCPUUtilizationPercentage: 80
+  targetMemoryUtilizationPercentage: 80
+
+nodeSelector:
+  Type: app
+
+tolerations: []
+volumes:
+  - name: logs
+    persistentVolumeClaim:
+      claimName: azurefilelogging-dev2
+volumeMounts:
+  - mountPath: "/app/logs"
+    name: logs
+
+affinity: {}
+selectorLabels:
+  appType: "svc"
+  role: "backend"
+  #azure.workload.identity/use: "true"
+  aadpodidbinding: id-artrepoapi-dev-centralus
